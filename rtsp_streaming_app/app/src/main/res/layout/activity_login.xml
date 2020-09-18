@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Id" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_id"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Passwd" />
+
+    <EditText
+        android:id="@+id/text_passwd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:password="true" />
+
+    <TextView
+        android:id="@+id/resultF"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Login" />
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="로그인 정보 기억하기" />
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Log In" />
+
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="406dp"
+        android:text="Login Result" />
+
+
+</LinearLayout>
